@@ -2,22 +2,36 @@
   "name": "robo",
   "version": "0.1.0",
   "private": true,
+  "description": "## Project setup ``` npm install ```",
+  "author": "liig",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "babel.config.js",
   "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap-vue": "^2.1.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-socket.io": "^3.0.7"
   },
   "devDependencies": {
+    "@babel/polyfill": "^7.7.0",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
     "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.3.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "mutationobserver-shim": "^0.3.3",
+    "popper.js": "^1.16.0",
+    "portal-vue": "^2.1.6",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-bootstrap-vue": "~0.6.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -38,5 +52,6 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "license": "ISC"
 }
