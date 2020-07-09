@@ -7,7 +7,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Layout from './submodules/'
+
 
 export default {
   name: 'App',
